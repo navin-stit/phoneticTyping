@@ -1,0 +1,194 @@
+/*
+* variables:
+*    @ulClassPref
+*    @id
+*    @mBrdWidth2
+*    @mBrdColor2
+*    @mBkGndColor2
+*    @mOpacity2_f
+*    @mOpacity2_p
+*    @mPadding2
+*    @itBkGndColor2n
+*    @itBkGndColor2o
+*    @itBrdWidth2
+*    @itBrdColor2n
+*    @itPadding2
+*    @itBrdColor2o
+*    @itFont2n
+*    @itFontHeight2n
+*    @itFontStyle2n
+*    @itFontWeight2n
+*    @itFontColor2n
+*    @itFontDecor2n
+*    @itFont2o
+*    @itFontHeight2o
+*    @itFontStyle2o
+*    @itFontWeight2o
+*    @itFontColor2o
+*    @itFontDecor2o
+*    @mSepHeight2
+*    @mSepImage2
+*    @mSepColor2
+*    @frameSourceLR2	submenu frame (left and right frame sides, left-top and right-bottom corners)
+*    @frameSourceTB2	submenu frame (top and bottom frame sides, left-bottom and top-right corners)
+*    @frameSize2		submenu frame width
+*
+*/
+
+#vista-buttons_com_id3fd4a td{font-size:0}
+#vista-buttons_com_id3fd4a td div{position:relative}
+#vista-buttons_com_id3fd4a td:hover>div>ul.vbUL3fd4a{display:block}
+
+ul.vbUL3fd4a{
+	left:99%;
+	top:-50px;
+	display:none;
+	visibility: visible;
+	overflow:visible;
+	list-style:none;
+	border: solid #73B0DF;
+}
+ul.vbUL3fd4a li{
+	white-space:nowrap;
+	border: solid #73B0DF;
+}
+ul.vbUL3fd4a ul{
+	position:absolute;
+	visibility: visible;
+	left:100%;
+	top:0;
+	border: solid #73B0DF;
+}
+ul.vbUL3fd4a li:hover{
+	position:relative;
+	border: solid #73B0DF;
+}
+ul.vbUL3fd4a li:hover>ul{
+	display:block;
+	border: solid #73B0DF;
+}
+
+
+.vbUL3fd4a{
+  position: absolute;
+  visibility: hidden;
+  display: block;
+  overflow: auto;
+  font-size: 1px;
+  margin: 0px;
+  border: solid #73B0DF;
+}
+div.vbUL3fd4a, table.vbUL3fd4a .subContent,ul.vbUL3fd4a{
+  border: solid #73B0DF;
+  border-width: 0px;
+  background-color: #005393;
+  padding: 0px;
+  opacity:0.85;
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=85);
+}
+.vbUL3fd4a table {
+  border-collapse: separate;
+  border-spacing: 0px;
+  border: solid #73B0DF;
+}
+.vbUL3fd4a table tr,ul.vbUL3fd4a li,ul.vbUL3fd4a .separator:hover{
+  font-size: 1px;
+  cursor: pointer;
+  background-color: #005393;  
+  border: solid #73B0DF;
+}
+.vbUL3fd4a tr.over,ul.vbUL3fd4a li:hover{
+  background-color: #A0DAEB;
+  border: solid #73B0DF;
+}
+.vbUL3fd4a table td,ul.vbUL3fd4a li,ul.vbUL3fd4a .separator:hover{
+  border: solid #005393;
+  border-width: 0px;
+  padding: 2px;
+  text-align: left;
+  border: solid #73B0DF;
+}
+.vbUL3fd4a tr.over td ,ul.vbUL3fd4a li:hover{
+  border-color: #1C4679;
+  border: solid #73B0DF;
+}
+.vbUL3fd4a td a, .vbUL3fd4a td span,ul.vbUL3fd4a a{
+  font-family: Tahoma;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: normal;
+  color: #EFEFEF;
+  text-decoration: none;
+}
+.vbUL3fd4a tr.over a, .vbUL3fd4a tr.over span{
+  font-family: Tahoma;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: normal;
+  color: #112948;
+  text-decoration: none;
+}
+ul.vbUL3fd4a li:hover>a{
+  font-family: Tahoma;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: normal;
+  color: #112948;
+  text-decoration: none;
+}
+.vbUL3fd4a tr.popup {
+  background-color: #A0DAEB;
+}
+.vbUL3fd4a tr.popup td {
+  border-color: #1C4679;
+}
+.vbUL3fd4a tr.popup a, .vbUL3fd4a tr.popup a{
+  font-family: Tahoma;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: normal;
+  color: #112948;
+  text-decoration: none;
+}
+
+.vbUL3fd4a td.imgFrame00,.vbUL3fd4a td.imgFrame10,.vbUL3fd4a td.imgFrame12,.vbUL3fd4a td.imgFrame22{
+	background-image: url(fr4fd4alr.png);
+	padding:0;
+}
+.vbUL3fd4a td.imgFrame01,.vbUL3fd4a td.imgFrame02,.vbUL3fd4a td.imgFrame20,.vbUL3fd4a td.imgFrame21{
+	background-image: url(fr4fd4atb.png);
+	padding:0;
+}
+.vbUL3fd4a td.imgFrame00{
+	width: 10px;
+	height: 10px;
+	background-position: -10px 0;
+}
+.vbUL3fd4a td.imgFrame01{
+	background-position: 50% 0;
+}
+.vbUL3fd4a td.imgFrame02{
+	background-position: 100% -10px;
+}
+.vbUL3fd4a td.imgFrame10{
+	background-position: 0 50%;
+}
+.vbUL3fd4a td.imgFrame12{
+	background-position: 100% 50%;
+}
+.vbUL3fd4a td.imgFrame20{
+	background-position: 0 -10px;
+}
+.vbUL3fd4a td.imgFrame21{
+	background-position: 50% 100%;
+}
+.vbUL3fd4a td.imgFrame22{
+	width: 10px;
+	height: 10px;
+	background-position: -10px 100%;
+}
+.shadow_table {
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+}

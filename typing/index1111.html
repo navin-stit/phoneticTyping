@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Virtual Keyboard</title>
+
+	<!-- jQuery (required) & jQuery UI + theme (optional) -->
+	<link href="docs/css/jquery-ui.min.css" rel="stylesheet">
+	<!-- still using jQuery v2.2.4 because Bootstrap doesn't support v3+ -->
+	<script src="docs/js/jquery-latest.min.js"></script>
+	<script src="docs/js/jquery-ui.min.js"></script>
+	<!-- <script src="docs/js/jquery-migrate-3.0.0.min.js"></script> -->
+
+	<!-- keyboard widget css & script (required) -->
+	<link href="css/keyboard.css" rel="stylesheet">
+	<script src="js/jquery.keyboard.js"></script>
+
+	<!-- keyboard extensions (optional) -->
+	<script src="js/jquery.mousewheel.js"></script>
+	<script src="js/jquery.keyboard.extension-typing.js"></script>
+	<script src="js/jquery.keyboard.extension-autocomplete.js"></script>
+	<script src="js/jquery.keyboard.extension-caret.js"></script>
+
+	<!-- demo only -->
+	<link rel="stylesheet" href="docs/css/bootstrap.min.css">
+	<link rel="stylesheet" href="docs/css/font-awesome.min.css">
+	<link href="docs/css/demo.css" rel="stylesheet">
+	<link href="docs/css/tipsy.css" rel="stylesheet">
+	<link href="docs/css/prettify.css" rel="stylesheet">
+	<script src="docs/js/bootstrap.min.js"></script>
+	<script src="docs/js/demo.js"></script>
+
+	<script src="docs/js/jquery.tipsy.min.js"></script>
+	<script src="docs/js/prettify.js"></script> <!-- syntax highlighting -->
+</head>
+<body class="custombackground">
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" name="top">
+				<span class="fa fa-keyboard-o fa-lg"></span>
+			</a>
+		</div>
+
+		<!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+				<li><a href="docs/basic.html">Basic</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Layouts <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="docs/layouts.html">Standard</a></li>
+						<li><a href="docs/layouts2.html">Greywyvern</a></li>
+						<li><a href="docs/layouts3.html">Microsoft Keyboard</a></li>
+						<li><a href="docs/calculator.html"><span class="fa fa-calculator fa-lg"></span> Calculator</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Extensions <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="docs/altkeys-popup.html">Alt-keys</a></li>
+						<li><a href="#autocomplete">Autocomplete</a></li>
+						<li><a href="#caret">Caret</a></li>
+						<li><a href="docs/extender.html">Extender</a></li>
+						<li><a href="docs/preview-keyset.html">Keyset</a></li>
+						<li><a href="docs/mobile.html">Mobile</a></li>
+						<li><a href="docs/jquery-mobile-1.4.html">Mobile v1.4</a></li>
+						<li><a href="docs/navigate.html">Navigate</a></li>
+						<li><a href="docs/scramble.html">Scramble</a></li>
+						<li><a href="#typing">Typing</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="https://github.com/Mottie/Keyboard"><span class="fa fa-github fa-lg" title="GitHub"></span></a></li>
+				<li><a href="https://github.com/Mottie/Keyboard/archive/master.zip"><span class="fa fa-download fa-lg" title="Download"></span></a></li>
+				<li><a href="https://github.com/Mottie/Keyboard/wiki"><span class="fa fa-file-text-o fa-lg" title="Documentation"></span></a></li>
+				<li><a href="https://github.com/Mottie/Keyboard/issues"><span class="fa fa-bug fa-lg" title="Issues"></span></a></li>
+			</ul>
+
+		</div>--><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
+
+<div id="page-wrap">
+<div class="datacontainer">
+<div class="col-xs-12 col-sm-7 col-md-7 pdleft">
+	<div class="headingarea">
+		<h1>Lession 1</h1>
+	</div>
+</div>
+<div class="col-xs-12 col-sm-5 col-md-5 pdright">
+	<div class="headingarea">
+		<h2>Logged in as : <span>MSA</span></h2>
+		<h3>Thursday August 16 2018</h3>
+	</div>
+</div>	
+<div class="col-xs-12 col-sm-12 col-md-12 nopadding text-center">
+<div class="datacontent">asdfghjkl;'</div>
+</div>
+
+
+	<div class="block">
+		<!--<h2>
+			<span class="tooltip-tipsy" title="Click, then scroll down to see this code">Custom: Lockable</span>
+		</h2>-->
+		<input id="lockable" type="text">
+		<br>
+		<small>
+			* cursor arrow keys.<br>
+			* keyboard enable/disable toggle.<br>
+			* include {del} key (opposite of {bksp})
+		</small>
+		<div class="code ui-corner-all">
+			<h4>HTML</h4>
+			<pre class="prettyprint lang-html">&lt;input id="lockable" type="text"&gt;</pre>
+			<h4>Script</h4>
+			<pre class="prettyprint lang-js">$('#lockable').keyboard({
+	layout: 'custom',
+	customLayout: {
+		'normal': [
+			'` 1 2 3 4 5 6 7 8 9 0 - = {bksp}',
+			'{tab} q w e r t y u i o p [ ] \\',
+			'a s d f g h j k l ; \' {enter}',
+			'{shift} z x c v b n m , . / {shift}',
+			'{accept} {space} {left} {right} {sp:.2} {del} {toggle}'
+		],
+		'shift': [
+			'~ ! @ # $ % ^ & * ( ) _ + {bksp}',
+			'{tab} Q W E R T Y U I O P { } |',
+			'A S D F G H J K L : " {enter}',
+			'{shift} Z X C V B N M &lt; &gt; ? {shift}',
+			'{accept} {space} {left} {right} {sp:.2} {del} {toggle}'
+		]
+	},
+	css: {
+		// add dark themed class to keyboard popup
+		// to use bright svg padlock icon
+		popup : 'ui-keyboard-dark-theme'
+	}
+})
+.addTyping();</pre>
+		</div>
+	</div>
+
+<div class="hand">
+	<div class="lefthand">
+	<img src="hand-left.png">
+	</div>
+	<div class="righthand">
+	<img src="hand-right.png">
+	</div>
+	
+</div>
+
+
+	<div id="showcode"></div>
+
+	<!--<div id="footer"></div>-->
+
+</div>
+</div>
+</body></html>

@@ -1,0 +1,77 @@
+﻿asdf fdsa fasd sdaf
+fdsa asdf sdaf dsfa
+jkl; ;lkj klj; lk;j
+jkl; ;lkj lk;j klj;
+af;j kdls jf;a kdsl
+jfkd ls;a kdsl ;als
+asdf jkl; ;lkj fdsa
+ad dad had sad lad
+Dad had a sad lad.
+Ed fed Ted red bed
+Ed fed Ted a red bed.
+it sit bit fit kit
+Sit a bit fit kit.
+jot got tot hot lot
+Jot got the tot hot a lot.
+un run sun bun fun
+Run in the sun on a bun for fun.
+tan man ran van fan
+The tan man ran to the van to fan.
+men hen pen ten den
+The men fed the hen in the pen at ten.
+rip zip sip tip hip
+Rip the zip and sip the tip.
+jog fog dog log hog
+We jog in the fog to the dog on the log.
+quit quiz lug mug rug
+Quit the quiz Liz and lug the mug to the rug.
+rag bag tag gag lag
+Put the rag in the bag with the tag for a gag.
+let set bet get jet
+Let us set a bet to see what we get.
+zig pig big dig fig
+Zig the pig was at the big dig.
+sob Bob cob job mob
+Sob Bob or get a cob job.
+cut nut but hut gut
+Cut the nut but not in the hut.
+crab drab grab slab stab
+6|Article,The,A|Adjective,drab,sad,bad,fat,tan|Subject Noun,crab,dad,lad,cat,man|Verb,chats,grabs,traps|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Object Noun,slab,van,bag,mat
+flap trap wrap snap clap
+6|Article,The,A|Adjective,drab,sad,bad,fat,tan|Subject Noun,crab,dad,lad,cat,man|Verb,chats,grabs,traps|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Object Noun,slab,van,bag,mat
+Glen bled fled sped step
+7|Proper Noun,Glen,Fred|Verb,sends,bled|Preposition,when,then|Pronoun,he,she|Verb,mends,fled|Prepositional Phrase,around the,at that,in the,with the,on the,over the|Object Noun,pen,shed
+belt felt bend send mend
+7|Proper Noun,Glen,Fred|Verb,sends,bled|Preposition,when,then|Pronoun,he,she|Verb,mends,fled|Prepositional Phrase,around the,at that,in the,with the,on the,over the|Object Noun,pen,shed
+brim grim skit slit spit
+6|Verb,Spin,Swim,Wish|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Adjective,grim,thin,slim|Subject Noun,fish,cliff,crib|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Object Noun,dish,hill,ship
+lift list fist spin skin
+6|Verb,Spin,Swim,Wish|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Adjective,grim,thin,slim|Subject Noun,fish,cliff,crib|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Object Noun,dish,hill,ship
+slob dog frog spot clots
+4|Pronoun,He,She|Verb,stops,chops,shot|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Object Noun,spot,shop
+drop shop stop pond bond
+4|Pronoun,He,She|Verb,stops,chops,shot|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Object Noun,spot,shop
+stub club crud stud plus
+5|Proper Noun,Dutch,Chuck|Verb,shut,dunk,sunk,trust|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Adjective,ruff,bum|Object Noun,club,crutch,crust
+crust trust sunk dunk junk
+5|Proper Noun,Dutch,Chuck|Verb,shut,dunk,sunk,trust|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Adjective,ruff,bum|Object Noun,club,crutch,crust
+lash cash sham wham
+6|Article,The,A|Adjective,drab,sad,bad,fat,tan|Subject Noun,crab,dad,lad,cat,man|Verb,chats,grabs,traps|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Object Noun,slab,van,bag,mat
+chat that than math
+6|Article,The,A|Adjective,drab,sad,bad,fat,tan|Subject Noun,crab,dad,lad,cat,man|Verb,chats,grabs,traps|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Object Noun,slab,van,bag,mat
+then when them Chet
+7|Proper Noun,Glen,Fred|Verb,sends,bled|Preposition,when,then|Pronoun,he,she|Verb,mends,fled|Prepositional Phrase,around the,at that,in the,with the,on the,over the|Object Noun,pen,shed
+check chess Beth shed
+7|Proper Noun,Glen,Fred|Verb,sends,bled|Preposition,when,then|Pronoun,he,she|Verb,mends,fled|Prepositional Phrase,around the,at that,in the,with the,on the,over the|Object Noun,pen,shed
+chin shin thin wish
+6|Verb,Spin,Swim,Wish|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Adjective,grim,thin,slim|Subject Noun,fish,cliff,crib|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Object Noun,dish,hill,ship
+chip ship whip itch
+6|Verb,Spin,Swim,Wish|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Adjective,grim,thin,slim|Subject Noun,fish,cliff,crib|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Object Noun,dish,hill,ship
+shop chop shot shock
+4|Pronoun,He,She|Verb,stops,chops,shot|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Object Noun,spot,shop
+throb notch chomp moth
+4|Pronoun,He,She|Verb,stops,chops,shot|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Object Noun,spot,shop
+chunk such hush shut
+5|Proper Noun,Dutch,Chuck|Verb,shut,dunk,sunk,trust|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Adjective,ruff,bum|Object Noun,club,crutch,crust
+shuck thug such much
+5|Proper Noun,Dutch,Chuck|Verb,shut,dunk,sunk,trust|Prepositional Phrase,around the,at that,in the,into the,with the,on the,over the|Adjective,ruff,bum|Object Noun,club,crutch,crust

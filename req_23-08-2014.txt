@@ -1,0 +1,47 @@
+1. At the top of the interface there is a large banner of hands on a keyboard. 
+The banner causes unnecessary scrolling. Please remove the banner, 
+a simple menu bar with the icon would work better for administrative purposes.	(DONE)
+
+2. I was able to add a user, but I was not able to remove users. 
+Since my students change I nee...d to be able to delete one user, 
+or delete all users and start fresh at the beginning of the school year.	(DONE)
+
+3. I was able to login as a student, complete a few lessons, 
+and email the results; however, when I went to login again, 
+there was no way to know where I left off. 
+The student needs two options when returning to the program.
+
+a. The student needs to be able to login to any lesson he wants.
+b. The students needs to be able to exit the program, 
+then when he comes back click the ---more--- link - 
+to continue where he left off. The word -- more -- 
+is on the login page in red letters.
+
+4. How is the lesson score calculated?						(DONE)
+answer : 
+wrong_type = (wrong typing / count letter) * 100
+score = 100 - wrong_type
+
+5. The lesson assessment worked well.						(DONE)
+
+6. The lesson report link doesn't give me any information that is 		(DONE)
+not the same as the data master. Can you tell me the purpose of this link? 
+Also, what is meant by Soal? This word is at the beginning of each line. 
+What does the Multiple Issue heading mean?
+answer : really sorry, i think the report is not useful, will delete it
+
+7. I would like to add the missing files, but there is no upload 
+or data record for the voice files accessible from the control panel. 
+Also many of the files I provided were not present, 
+so I could not test the program completely.
+a. Lesson	(DONE)
+b. assessment	(DONE)
+c. Lesson Mode
+d. voice lesson	
+e. voice leters	
+f. voice words	
+
+
+8. Perhaps the Lesson Report Link could be replaced with an Upload Data link, 
+That way all the uploading would be under one menu item, 
+and I could upload all files needed to manage the program - pictures, voice, etc

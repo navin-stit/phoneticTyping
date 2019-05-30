@@ -1,0 +1,456 @@
+.carousel-multi-item .carousel-indicators li {
+     height:.75rem;
+     width: .75rem; 
+}
+
+.carousel-multi-item .carousel-indicators .active {
+    height:.75rem;
+     width: .75rem; 
+}
+.btn-floating{
+width: 30px;
+    height: 30px;
+}
+
+.btn-floating i {
+    font-size: 0.75rem;
+    line-height: 34px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+/*---------nav-----------*/
+.nav ul {
+    list-style-type: none;
+   
+    margin: auto;
+    display: block;
+}
+.nav ul li {
+    display: inline-block;
+    padding: 10px 10px 10px 16px;
+}
+.nav ul li a {
+    color: #000000;
+    text-decoration: none; 
+}
+.nav ul li:hover{
+    font-weight: 700;
+    border-top: 2px solid #000000;
+}
+.nav ul li a:hover{
+      color: rgb(126, 105, 0);
+}
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+/*--------section------------*/
+.section{
+    margin-top: 65px;
+}
+.text{
+    margin-top: 147px;
+    text-align: center;
+    left: 50px;
+}
+.text .p{
+        border-bottom: 2px solid #000000;
+    width: fit-content;
+    margin: auto;
+    line-height: 5;
+    font-size: 17px;
+}
+.text h1{
+    font-family: 'Fredoka One', cursive;
+    padding-top: 32px;
+    font-size: 45px;
+}
+.text p{
+     font-size: 17px;
+    word-spacing: 3px;
+    font-weight: 400;
+}
+button{
+    background: white;
+    padding: 16px;
+    padding-left: 41px;
+    padding-right: 41px;
+    font-weight: 500;
+    word-spacing: 6px;
+    font-size: 17px;
+    margin-top: 20px;
+    border: none;
+}
+button:hover{
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 10px -10px;
+        transform: scale(1.02);
+        backface-visibility: hidden;
+}
+/*-----------------about us-----------*/
+.about-us h1{
+     font-family: 'Fredoka One', cursive;
+    text-align: center;
+     font-size: 32px;
+    padding-top: 55px;
+}
+.about-us hr{
+        border-top: 2px solid #000000;
+    width: 90px;
+}
+.about-content{
+    margin-top: 60px;
+}
+.text-content h4{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-family: font-family: 'Poppins', arial, sans-serif;
+}
+.text-content p{
+        color: rgb(94, 94, 94);
+    font-size: 17px;
+     font-family: font-family: 'Poppins', arial, sans-serif;
+}
+/*------------------subscribe----------------*/
+.subscribe{
+    background: #FFD703;
+    margin-top: 20px;
+}
+.subscribe h1{
+    font-size: 31px;
+    margin-bottom: 15px;
+     font-family: 'Fredoka One', cursive;
+}
+.subscribe p{
+    margin-bottom: -8px;
+    font-family: Poppins, arial, sans-serif;
+        color: rgb(68, 63, 51);
+}
+.subscribe input{
+        padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 202px;
+    padding-right: 114px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+/*--------------footer------------------*/
+.footer{
+    margin-top: 35px;
+}
+.footer a{
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.footer i{
+        width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background: rgb(170, 143, 0);
+    border-radius: 50%;
+    color: white;
+}
+.footer h5{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', arial, sans-serif;
+    font-weight: 600;
+}
+/*------------phonetic-header-------------*/
+.header h1{
+        font-family: 'Fredoka One', cursive;
+    padding-top: 32px;
+    font-size: 45px;
+}
+.header p{
+    font-size: 17px;
+    word-spacing: 3px;
+    font-weight: 400;
+}
+/*--------video-section-------------*/
+.video-section{
+        background: #FFD703;
+    text-align: center;
+    margin-top: 20px;
+}
+.video-section h1{
+    font-size: 31px;
+    font-family: 'Fredoka One', arial, sans-serif;
+    margin-top: 20px;
+}
+.video-section hr{
+        border-top: 2px solid black;
+    width: 90px;
+}
+.video-section p{
+        font-size: 24px;
+    margin-top: 41px;
+}
+.video-section .lesson{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 61px;
+    padding-bottom: 19px;
+}
+/*------------section2---------------*/
+.section2{
+    margin-top: 30px;
+}
+.section2 .unit h2{
+    font-size: 31px;
+}
+.section2 .unit .rate{
+    font-size: 22px;
+        color: rgb(140, 117, 0);
+}
+.section2 .unit button{
+    background:#FFD703;
+    padding: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-weight: 500;
+    word-spacing: 6px;
+    font-size: 17px;
+    border: none;
+    margin-bottom: 10px;
+}
+.section2 .unit button:hover{
+    opacity: 0.5;
+}
+/*-------------unit2---------------*/
+.unit2{
+ background: #FFD703; 
+    margin-top: 40px;
+}
+.unit2 h2{
+        font-size: 31px;
+    text-align: center;
+    margin-top: 30px;
+     font-family: 'Fredoka One', cursive;
+}
+.unit2 hr{
+        border-top: 2px solid;
+    width: 90px;
+    margin-bottom: 60px;
+}
+/*-------------lessons--------*/
+.lessons{margin-top: 40px;}
+.lessons h2{
+            font-size: 31px;
+    text-align: center;
+    margin-top: 30px;
+     font-family: 'Fredoka One', cursive;
+}
+.lessons hr{
+        border-top: 2px solid;
+    width: 90px;
+    margin-bottom: 60px;
+}
+.lessons p{
+    text-align: center;
+    font-size: 21px;
+    font-family: font-family: 'Poppins', arial, sans-serif; 
+}
+.lessons ul{
+    list-style-type: none;
+}
+.lessons ul li a{
+    text-decoration: none;
+    color: rgb(140, 117, 0);
+}
+/*------------hidden-content---------------*/
+.hidden-content p{
+    text-align: left !important;
+    font-size: 31px;
+    margin-top: 30px;
+}
+.hidden-content img{
+    margin-top: 20px;
+}
+.hidden-content2 {
+        margin-top: 36px;
+    text-align: left;
+    margin-left: 85px;
+}
+.hidden-content2 p{
+    text-align: left;
+    font-size: 19px;
+    font-weight: 500;
+}
+.hidden-content2 input{
+    padding: 15px 60px 15px 60px
+}
+.hidden-content2 button{
+        background: #FFD703;
+}
+.hidden-content i{
+    color: white;
+    width: 23px;
+    height: 23px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+}
+/*-------------lesson-page--------------*/
+.post-head{
+    border-top: 5px solid #bd5532;
+}
+.post-head::before{
+    content: "<<";
+     font-family: FontAwesome;
+    z-index: 2
+}
+.post-head::before{
+        background: #bd5532;
+    border-radius: 80px 80px 0 0;
+    color: white;
+    display: block;
+    font-size: 32px;
+    line-height: 46px;
+    margin-left: -40px;
+    position: absolute;
+    top: -44px;
+    left: 50%;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+}
+.lesson .img{margin-left: 25px;}
+.lesson .site-branding{margin-left: 25px;}
+.lesson{margin-top: 80px;}
+.lesson .site-branding{
+        position: relative;
+    background: aliceblue;
+    width: 277px;
+    padding: 25px;
+}
+.lesson .site-header{
+        position: absolute;
+    top: -40px;
+    margin-left: 73px;
+}
+.lesson .site-content{
+    position: relative;
+    top: 12px;
+    text-align: center;
+}
+.lesson .site-content h2{
+        font-size: 25px;
+    color: #bd5532;
+}
+.list {margin-top: 40px;}
+.list ul{
+    list-style-type: none;
+}
+.list li a{
+        text-decoration: none;
+    color: #6f9d9f;
+    font-weight: 600;
+    font-size: 17px
+}
+.list li a:hover{
+    color: #bd5532;
+
+}
+.list form{
+    margin-top: 44px;
+    margin-left: 50px;
+}
+.list input{
+        border: none;
+    margin-left: 24px;
+    padding: 10px;
+}
+.post-header{
+        text-align: center;
+    margin-top: 30px;
+}
+.post-header h1{
+        color: #bd5532;
+    font-size: 51px;
+}
+.post-meta span{
+    padding-right: 10px;
+}
+.comment{
+    margin-top: 30px;
+
+}
+.likes{
+    position: absolute;
+    bottom: 0;
+}
+/*---------------about me-------------*/
+.about-me h1{
+    color: #bd5532;
+    margin: 19px 0;
+    text-align: center;
+    font-size: 46px;
+}
+.about-me p{
+   font-size: 18px;
+   color: #7c705e
+}
+/*-------------contact me---------------*/
+.contact-me h1{
+    color: #bd5532;
+    margin: 13px 0;
+    text-align: center;
+    font-size: 46px;
+}
+.contact-me p{
+    font-size: 18px;
+   color: #7c705e;
+}
+
+.navbar-dark .navbar-toggler{margin: 0;}
+.navbar{display: none;}
+@media screen and (max-width: 768px) and (min-width: 310px){
+    .section{margin-top: 24px;}
+    .section .img{margin-left: -18px;margin-right: -18px;}
+    .text{
+    margin-top: 0px;}
+    .text h1{font-size: 31px;}
+    .subscribe input{
+        padding-left: 54px;
+        padding-right: 45px;
+        margin-left: -12px;
+    }
+    button{
+        font-size: 16px;
+        padding-left: 11px;
+        padding-top: 11px;
+    }
+    .about-us h1{font-size: 24px;}
+    .text-content{margin-top: 10px;}
+    .text-content p{font-size: 15px;}
+    .subscribe p{margin-bottom: 14px;}
+    .header h1{font-size: 26px;}
+    .video-section p {
+    font-size: 18px;
+    margin-top: 25px;
+}
+    .lessons{margin-top: 42px;}
+    .lessons p{font-size: 17px;}
+    .lesson .img{margin-left: -12px!important;}
+    .lesson .site-branding{margin-left:-12px !important;}
+    .list{margin-left: -42px}
+    .list a{font-size: 15px;}
+    .list form{margin-top: 20px;}
+    .post-head{margin-top: 52px;}
+    .post-header h1{font-size: 27px;}
+    .about-me h1{font-size: 37px;}
+    .about-me p{font-size: 16px;}
+    .contact-me h1{font-size: 35px;}
+    .contact-me p{font-size: 16px;}
+    .hidden-content2{text-align: center;margin-left:0px;}
+    .hidden-content2 p{text-align: center;}
+    .hidden-content2 input{padding: 15px 26px 15px 26px;}
+    .nav{display: none;}
+    .navbar{display: block;}
+
+}

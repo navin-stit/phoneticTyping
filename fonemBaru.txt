@@ -1,0 +1,17 @@
+1. [xy] will play xy.mp3 after they are typed. It will display xy character
+sequen
+ex: [ch]ur[ch]
+CORRECT
+
+... 2. /a=xy/ will play xy.mp3 when the "x" character is typed. It will display
+a on screen.
+ex: r/a=ai/y will display ray and will play ai,mp3 when "a" is typed.
+OK - I BELIEVE THIS WILL WORK - WHENEVER I WANT A LONG A SOUND I TYPE /A=AI/
+C/A=AI/K<E> IS FOR CAKE
+AND FOR MAID I WOULD TYPE M/AI=AI/D -
+SO THE SCREEN WOULD SHOW MAID
+
+3. <x> will not play anything when "x" character is typed. It will display
+x on screen.
+ex: cak<e>
+CORRECT

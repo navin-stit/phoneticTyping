@@ -1,0 +1,9 @@
+﻿<div class="popup" id="test" style="display: none">
+  <h3 class="title">Popup Window</h3>
+  <div class="popup_content">
+    <p>Hello world!</p>
+    <p><a href="javascript: Element.closePopup('test')">Close</a>
+  </div>
+</div>
+
+<a href="#test" class="popup">Popup</a></code>

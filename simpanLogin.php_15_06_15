@@ -1,0 +1,18 @@
+<?php
+
+require_once("typingadmin/koneksi.php");
+$username = $_GET['namaUser'];
+
+$simpanlogin = mysql_query("INSERT INTO user_login (username, logindate) VALUES ('".$username."',now())");
+
+if($simpanlogin) {
+	$loadLastRecord = mysql_query("SELECT * FROM user_login ORDER BY id DESC");
+	$row = mysql_fetch_array($loadLastRecord);
+	$id = $row['id'];
+	
+	echo "idUserLogin=" . $id;
+} else {
+	echo "idUserLogin=none";
+}
+
+?>
